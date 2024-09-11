@@ -184,13 +184,74 @@ footer {
     height: 100vh;
 }
 
-.additional-background {
-    background-image: url('https://wallpaper.forfun.com/fetch/41/41e6b462977858e08c3db0f869d8b52c.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+.experience-group {
+    margin-bottom: 15px; /* Reduce space between experience groups */
+    padding: 10px; /* Adjust padding if needed */
 }
+
+.experience-group h3 {
+    margin: 0; /* Remove space above and below headings */
+}
+
+.experience-group p {
+    margin: 5px 0; /* Reduce space between paragraphs */
+    font-size: 0.9em; /* Adjust font size for compactness */
+}
+
+.experience-group strong {
+    font-weight: bold; /* Ensure bold text is properly styled */
+}
+
+.experience-group small {
+    font-size: 0.8em; /* Slightly smaller text for dates and roles */
+}
+
+.experience-group em {
+    font-style: italic; /* Italicize text for date range */
+}
+
+ul li {
+    font-size: 0.9em; /* Smaller font size for the certificate list */
+    line-height: 1.5;
+    margin-bottom: 15px; /* Add space between each certificate */
+}
+
+ul li em {
+    font-size: 0.8em; /* Smaller italicized font for the year */
+    color: #555; /* Slightly muted color for the year */
+}
+
+ul li .platform {
+    font-size: 0.8em; /* Smaller font size for platform names */
+    color: #666; /* Slightly muted color for platforms */
+}
+
+em {
+    font-size: 0.8em; /* Smaller italicized font for the year */
+}
+
+.education-group {
+    margin-bottom: 10px; /* Reduce space between the groups */
+    padding: 10px; /* Adjust padding for a tighter layout */
+    background-color: #f9f9f9; /* Light background for separation */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light border for each group */
+}
+
+.education-group p {
+    margin: 5px 0; /* Reduce space between lines */
+    font-size: 0.9em; /* Slightly smaller font size for compactness */
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 5px; /* Reduce space below each heading */
+}
+
+#education h2 {
+    margin-bottom: 20px;
+}
+
 
 /* Animation keyframes */
 @keyframes fadeIn {
